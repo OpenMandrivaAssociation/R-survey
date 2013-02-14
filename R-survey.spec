@@ -1,14 +1,16 @@
 %global packname  survey
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          3.28
+Version:          3.29
 Release:          1
 Summary:          analysis of complex survey samples
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/survey_3.29.tar.gz
 Requires:         R-foreign R-survival R-MASS R-splines R-KernSmooth
 Requires:         R-hexbin R-mitools R-lattice R-RSQLite R-RODBC R-quantreg
 Requires:         R-Matrix R-multicore R-CompQuadForm
