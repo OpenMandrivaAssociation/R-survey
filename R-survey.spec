@@ -10,11 +10,7 @@ Summary:          analysis of complex survey samples
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-<<<<<<< HEAD
-Source0:          http://cran.r-project.org/src/contrib/survey_3.29.tar.gz
-=======
 Source0:          http://cran.r-project.org/src/contrib/survey_3.29-4.tar.gz
->>>>>>> auto_update
 Requires:         R-foreign R-survival R-MASS R-splines R-KernSmooth
 Requires:         R-hexbin R-mitools R-lattice R-RSQLite R-RODBC R-quantreg
 Requires:         R-Matrix R-multicore R-CompQuadForm
@@ -66,7 +62,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/api.db
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
-<<<<<<< HEAD
-=======
-
->>>>>>> auto_update
