@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          3.29.4
-Release:          1
+Release:          2
 Summary:          analysis of complex survey samples
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
