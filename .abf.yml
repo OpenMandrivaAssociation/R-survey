@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   survey_3.29-4.tar.gz: d7934289bec8615932a50d1e12be31d60d32d1d0
+sources:
+  survey_3.29-5.tar.gz: 48508d8bdf319e90f98ca23d2c3832d89e180674
